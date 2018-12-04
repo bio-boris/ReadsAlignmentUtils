@@ -17,11 +17,11 @@ from pprint import pprint
 from pprint import pformat
 
 from core import script_utils
-from DataFileUtil.DataFileUtilClient import DataFileUtil
-from DataFileUtil.baseclient import ServerError as DFUError
+from installed_clients.DataFileUtilClient import DataFileUtil
+from installed_clients.baseclient import ServerError as DFUError
 from ReadsAlignmentUtils.core.sam_tools import SamTools
-from Workspace.WorkspaceClient import Workspace
-from Workspace.baseclient import ServerError as WorkspaceError
+from installed_clients.WorkspaceClient import Workspace
+from installed_clients.baseclient import ServerError as WorkspaceError
 #END_HEADER
 
 
